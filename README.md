@@ -1,2 +1,2 @@
 # gik339-labb1
-Laboration för dynamiska webbapplikationer 
+Laboration 1 för dynamiska webbapplikationer 
