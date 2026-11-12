@@ -3,9 +3,9 @@
 const car = "Audi A7";
 let carPrice = 50000;
 
-/*console.log(carPrice);
+console.log(carPrice);
 console.log(carValue);
-console.log(carPriceNew);*/
+console.log(carPriceNew);
 
 
 {
@@ -22,8 +22,8 @@ console.log(carPriceNew);*/
 
 }
 
-console.log(carPrice);
+/*console.log(carPrice);
 console.log(carValue);
-console.log(carPriceNew);
+console.log(carPriceNew);*/
 
 
