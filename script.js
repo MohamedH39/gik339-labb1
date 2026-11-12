@@ -16,14 +16,14 @@ console.log(carPriceNew);*/
 
 
  var carPriceNew = 70500;
- console.log(carValue);
+ /*console.log(carValue);
  console.log(carPrice); 
- console.log(carPriceNew);
+ console.log(carPriceNew);*/
 
 }
 
-/*console.log(carPrice);
+console.log(carPrice);
 console.log(carValue);
-console.log(carPriceNew);*/
+console.log(carPriceNew);
 
 
