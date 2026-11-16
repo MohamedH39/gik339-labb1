@@ -1,5 +1,6 @@
 /*console.log("Hello, Worlds!!");*/
 
+/*Uppgift 2*/
 const car = "Audi A7";
 let carPrice = 50000;
 
@@ -53,3 +54,11 @@ När det kommer till variablen carPriceNew så ger konsolen
 undefined eftersom carPriceNew deklareras efter console.log(carPriceNew)
 
 */
+
+/*Uppgift 3*/
+const add = (num1, num2) => {
+    return num1+ num2;
+}
+
+console.log(add(23,19));
+
