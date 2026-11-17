@@ -1,25 +1,25 @@
 /*console.log("Hello, Worlds!!");*/
 
 /*Uppgift 2*/
-const car = "Audi A7";
+/*const car = "Audi A7";
 let carPrice = 50000;
 
-/*console.log(carPrice);
+console.log(carPrice);
 console.log(carValue);
 console.log(carPriceNew);*/
 
 
-{
+/*{
  console.log(car);
  const carValue = 70000;
  let carPrice = 85500;
 
  var carPriceNew = 70500;
-/*console.log(carValue);
+ console.log(carValue);
  console.log(carPrice); 
- console.log(carPriceNew);*/
+ console.log(carPriceNew);
 
-}
+}/*
 
 /*console.log(carPrice);
 console.log(carValue);
@@ -61,4 +61,31 @@ const add = (num1, num2) => {
 }
 
 console.log(add(23,19));
+
+
+/*testning av let
+let add = (num1, num2) => {
+    return num1+ num2;
+}
+console.log(add(23,19));*/
+
+/*reflektion på uppgift 3:*/
+/* 
+1. Det hände inget speciellt när jag använde nyckelordet let istället för 
+const. Då jag fortfrande fick ut 42 som svar när jag körde.Men det som kan bli 
+ett problem när man använder let är att man rikserar att av misstag skriva över
+funktionens värde längre ner i koden. T.ex att man råkar skriva add=89, och då
+försvinner själva funktionen permanent. Därför används cosnt för då blir funktionen
+låst och går inte att skriva över. 
+
+2. När man istället använder en funktionsdeklaration så ser det ut 
+function add (num1, num2) {
+    return num1+ num2;
+}
+console.log(add(23,19));
+
+3.Det som return gör är att den skickar tillbaka värdet som man vill ha
+där funktionen anropas. I denna kod såskickar den tillbaka summan 
+av num1 och num2 som är 42. 
+*/
 
