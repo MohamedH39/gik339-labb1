@@ -57,6 +57,11 @@ undefined eftersom carPriceNew deklareras efter console.log(carPriceNew)
 
 /*Uppgift 3*/
 const add = (num1, num2) => {
+ console.log(num1 == 0)
+ console.log(num2 === "0")
+ console.log(num2 === 0)
+ console.log(num1 == NaN)
+
     return num1+ num2;
 }
 
