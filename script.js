@@ -1,6 +1,6 @@
 /*console.log("Hello, Worlds!!");*/
 
-/*-----------------Uppgift 2*-----------------/
+//-----------------Uppgift 2-----------------//
 const car = "Audi A7";
 let carPrice = 50000;
 
