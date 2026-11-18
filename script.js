@@ -55,14 +55,26 @@ undefined eftersom carPriceNew deklareras efter console.log(carPriceNew)
 
 */
 
-/*Uppgift 3*/
+/*Uppgift 3 --- Uppgift 4*/
 const add = (num1, num2) => {
  console.log(num1 == 0)
  console.log(num2 === "0")
  console.log(num2 === 0)
  console.log(num1 == NaN)
 
+ console.log(num1 ? "truthy" : "falsy" )
+
+ if(!(num1 === null || num1 === undefined )&& 
+ !(num2 === null || num2 === undefined ) && 
+ typeof num1=== "number" && typeof num2 === "number")
+{
+    console.log ("parametrarna stämmer öeverens med kraven")
     return num1+ num2;
+}
+
+else {console.log("det är någon av parametrarna som är felaktigt")}
+
+    
 }
 
 console.log(add(23,19));
