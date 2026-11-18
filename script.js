@@ -86,7 +86,7 @@ let add = (num1, num2) => {
 }
 console.log(add(23,19));*/
 
-/*reflektion på uppgift 3:*/
+/*------------reflektion på uppgift 3:-------------*/
 /* 
 1. Det hände inget speciellt när jag använde nyckelordet let istället för 
 const. Då jag fortfrande fick ut 42 som svar när jag körde.Men det som kan bli 
@@ -106,3 +106,23 @@ där funktionen anropas. I denna kod såskickar den tillbaka summan
 av num1 och num2 som är 42. 
 */
 
+
+/*------------reflektion på uppgift 4:-------------*/
+/*
+  1. En ternary operator är en kortare version av en if sats. Där både en if sats och 
+  en ternary operator gör samma sak. Alltså att de kollar om ett villkor är sant eller falskt.
+  Skillanden är att i en if sats kan man lägga hur mycket kod man vill i blocket.
+  Där en ternary operator är mer kompakt och man använder när man vill bestämma ett
+    värde på en variabel beroende på ett villkor.
+
+ 2. Skillanden mellan == och === är att == tittar om värderna är lika med varandra och 
+ === kollar strikt om både värderna och datatyperna är lika med varnadra.
+
+ 3. Det jag gjorde för att lösa if stasten var att jag använde en ! framför parantserna
+ som betyder "inte" och då krävs det från if satsen att båda variablerna inte är
+ null eller undefined. För att den sedan ska gå vidare och kolla om dtatyperna är number genom 
+ att använda typeof operatorn. Använde också && för att koppla ihop alla villkor.
+
+ */
+
+ 
