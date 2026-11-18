@@ -25,8 +25,7 @@ console.log(carPriceNew);*/
 console.log(carValue);
 console.log(carPriceNew);*/
 
-
-/* reflektion på uppgift 2:
+/* -----------reflektion på uppgift 2-----------------:
 1* När man skapar en let variablen inuti ett kodblock 
 så finns den bara där inne och den är block scoped.
 
@@ -125,4 +124,36 @@ av num1 och num2 som är 42.
 
  */
 
- 
+/*uppgift 5*/
+
+const num1 = 0;
+let arg1;
+let sum = false ;
+// test 1
+console.log (add(sum, 1));
+sum = add ("0", 3);
+console.log(sum);
+
+//test 2
+console.log(add("0", 3));
+sum = add (3, "num1");
+console.log(sum);
+
+//test3
+console.log(add(3, "num1"));
+sum = add (-5, num1);
+console.log(sum);
+
+//test4
+console.log(add(-5, num1));
+sum = add (arg1, 7)
+console.log(sum)
+
+//test 5
+console.log(add(arg1, 7));
+
+//test6
+console.log (add())
+
+console.log(num1)
+console.log(sum)
