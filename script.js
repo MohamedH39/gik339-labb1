@@ -157,3 +157,54 @@ console.log (add())
 
 console.log(num1)
 console.log(sum)
+
+/*--------------reflektion av uppgift 5---------------*/ 
+
+/*
+1. Skillnaden mellan parameter, variabel och ett argument är att en variabel 
+är som en behållare som man ger ett nman till och sparar i datorns minne.
+En parameter liknar typ en mottagare eller en platshållare inuti funktions-
+definition som t.ex dem jag använde num1 och num2.
+Där ett argument är det riktiga värdet man skickar in i funktionen när man 
+anropar den som t.ex add(3,"num1")
+
+2. På den sista värdet som är num1 så får jag ut siffran 0 eftersom jag 
+skapade den globala variablen const num1 =0 längst upp. Där det också finns 
+en annan num1 och den är ju inne i sitt eget scope så man inte får något
+annat värde än 0.
+
+3.Jag väljer att förklara test 4 som är add(-5, num1)
+Först får parametrarna värderna, och dem argument jag skickar in är -5 och den 
+globala variablen num1 som är 0. Och Inne i funktionen får parametern num1 
+värdet -5 och parametern num2 värdet 0, eftersom variablen num1 är 0 och global.
+
+Och ifall om jämförelsena släpps igenom så blir det
+-5 == 0 som ger false
+0 === "0" ger false
+0 === 0 här ges true
+-5 == NaN ger också false 
+
+Och om ternary operator släpps igenom så värderas num1 parametern som -5
+vilket ger "truthy" enligt javascript. Alltså att alla siffror förutom 0 är truthy
+
+if-satsen kollar efter om värderna är siffror alltså att dem inte är null eller 
+undefined. Där både -5 och 0 är siffror så fungerar koden in i if-blokcet. 
+Och det som returneras blir -5. 
+
+Returvärderna för dem dem andra anropen
+
+//Test1 add (sum, 1) returnerar undefined för att sum är en boolean eller
+undefined alltså ingen siffra
+
+//Test2 add ("0", 3) returnerar undefined för att en sträng finns med
+
+//Test3 add(3, "num1") returnerar undefined för ett värde med sträng
+finns med
+
+// Test 5 add (arg1, 7 ) returnerar undefined eftersom arg1 saknar ett värde, null
+
+//Test6 add( ) returnerar undefined för att inga rgument har skickats in
+
+
+
+*/
